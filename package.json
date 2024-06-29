@@ -1,0 +1,20 @@
+{
+  "name": "3d-earth",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.164.1",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "@types/three": "^0.164.0"
+  }
+}
